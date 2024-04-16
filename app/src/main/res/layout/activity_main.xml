@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Round -> "
+            android:layout_marginRight="10dp"
+            android:textColor="#EF3E06"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/txt_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#EF3E06"
+            android:textSize="25dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F4511E"
+            android:text="X score ->"
+            android:textSize="25sp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_Xscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#F4511E"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F4511E"
+            android:text="O score ->"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_Oscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#F4511E"
+            android:textSize="25dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_marginTop="100dp"
+        android:useDefaultMargins="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_1"
+            android:backgroundTint="#4B5B59"
+            android:onClick="onClickButton"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_2"
+            android:backgroundTint="#4B5B59"
+            android:textSize="50dp"
+            android:onClick="onClickButton"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_3"
+            android:backgroundTint="#4B5B59"
+            android:textSize="50dp"
+            android:onClick="onClickButton"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_4"
+            android:backgroundTint="#4B5B59"
+            android:textSize="50dp"
+            android:onClick="onClickButton"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_5"
+            android:backgroundTint="#4B5B59"
+            android:onClick="onClickButton"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_6"
+            android:backgroundTint="#4B5B59"
+            android:onClick="onClickButton"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_7"
+            android:backgroundTint="#4B5B59"
+            android:onClick="onClickButton"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_8"
+            android:backgroundTint="#4B5B59"
+            android:onClick="onClickButton"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_9"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:backgroundTint="#4B5B59"
+            android:onClick="onClickButton"
+            />
+
+    </GridLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A97575"
+        android:layout_marginTop="25dp"
+        android:text="ReStart"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textColor="#DF0B0B"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
